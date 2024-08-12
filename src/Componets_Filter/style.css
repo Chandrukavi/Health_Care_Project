@@ -1,0 +1,15 @@
+/* WebKit/Blink browsers */
+input[type="range"]::-webkit-slider-thumb {
+    @apply appearance-none w-5 h-5 bg-ButtonColorPlus rounded-full cursor-pointer;
+  }
+  
+  /* Firefox */
+  input[type="range"]::-moz-range-thumb {
+    @apply appearance-none w-5 h-5 bg-ButtonColorPlus rounded-full cursor-pointer;
+  }
+  
+  /* IE */
+  input[type="range"]::-ms-thumb {
+    @apply appearance-none w-5 h-5 bg-ButtonColorPlus rounded-full cursor-pointer;
+  }
+  
